@@ -10,8 +10,8 @@ st.set_page_config(
     layout="wide"
 )
 
-# --- KONFIGURASI SUPABASE REST API ---
-SUPABASE_URL = "https://[masukkan-url-asli-proyek-anda].supabase.co"
+# CONTOH PENULISAN YANG BENAR (Ganti dengan kode unik Supabase Anda):
+SUPABASE_URL = "https://a1b2c3d4e5f6g7h8.supabase.co"
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 
 HEADERS = {
