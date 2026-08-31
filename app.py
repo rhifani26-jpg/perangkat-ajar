@@ -11,8 +11,8 @@ st.set_page_config(
 )
 
 # --- KONFIGURASI SUPABASE REST API ---
-SUPABASE_URL = st.secrets.get("SUPABASE_URL", "https://URL-PROYEK-ANDA.supabase.co")
-SUPABASE_KEY = st.secrets.get("SUPABASE_KEY", "KEY-ANON-PUBLIC-ANDA")
+SUPABASE_URL = "https://[masukkan-url-asli-proyek-anda].supabase.co"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 
 HEADERS = {
     "apikey": SUPABASE_KEY,
